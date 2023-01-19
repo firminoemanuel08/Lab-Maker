@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabMaker | Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/style-contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="img/Logos/logoSite.png" alt="Logo do Site" class="cabecalho__logo">
+        <div class="cabecalho__botoes-desktop">
+            <a href="index.html" class="cabecalho__contato">Início</a>
+            <a href="projetos.html" class="cabecalho__projetos">Projetos</a>
+            <img id="icon" class="cabecalho__tema" aria-label="Tema" src="img/Logos/moon-icon-32.png" alt="Logo Lua">
+        </div>
+    </header>
+
+    <nav class="menu-lateral">
+        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="projetos.html" class="menu-lateral__link menu-lateral__link--projetos ">Projetos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--contato ">Contato</a>
+    </nav>
+    <main class="principal">
+        <h2 id="contato_titulo">Nos Contate.</h2>
+        <form action="https://formsubmit.co/ifsuldeminascdm.labmaker@gmail.com" target="_blank" method="post"
+            class="formulario">
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu Nome">
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea rows="2" cols="20" id="mensagem" class="input-padrao" required></textarea>
+
+            <label class="checkbox"><input class="checkbox__input" type="checkbox" checked>Gostaria de receber
+                nossas
+                novidades por
+                email?</label>
+
+            <input type="submit" value="Enviar Mensagem" class="enviar">
+        </form>
+    </main>
+
+    <section>
+        <li class="icones_brabos">
+            <a href="https://www.instagram.com/labmaker_ifsuldeminascdm/" class="botao__insta">
+                <i class="icone_insta fa-brands fa-instagram"></i>
+            </a>
+        </li>
+        <li class="icones_brabos">
+            <a href="https://goo.gl/maps/jjkfEaQ9Fo6bXcna7" class="botao__mapa">
+                <i class="icone_local fa-solid fa-location-dot"></i>
+            </a>
+        </li>
+        <li class="icones_brabos">
+            <a href="mailto:ifsuldeminascdm.labmaker@gmail.com" class="botao__email">
+                <i class="icone_email fa-solid fa-envelope"></i>
+            </a>
+        </li>
+        <li class="icones_brabos">
+            <a href="https://goo.gl/maps/jjkfEaQ9Fo6bXcna7" class="botao__mundo">
+                <i class="icone_mundo fa-solid fa-earth-americas"></i>
+            </a>
+        </li>
+    </section>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
