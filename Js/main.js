@@ -29,10 +29,8 @@ icon.onclick = function () {
     document.body.classList.toggle('dark-theme');
     if (document.body.classList.contains('dark-theme')) {
         icon.src = 'img/Logos/sun.png';
-
     } else {
         icon.src = 'img/Logos/moon-icon-32.png';
-
     }
 }
 

@@ -251,13 +251,46 @@ section {
   list-style: none;
   padding-bottom: 10px;
 }
+@media (prefers-color-scheme: dark){
+  :root{
+    --primary-color: #3b3b3b;
+    --secundary-color: #ffffff;
+    --terciary-color: #2e2e2e;
+    --quarter-color: #2ecc71;
+    --quintenary-color: #535353;
+
+}
+.dark-theme {
+  --primary-color: #ffffff;
+  --secundary-color: #000000;
+  --terciary-color: #2b4058;
+  --quarter-color: #ffffff;
+  --quintenary-color: #d9d9d9;
+}
+  }
 
 @media screen and (min-width: 1024px) {
   body {
     display: grid;
     overflow-x: hidden;
   }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --primary-color: #3b3b3b;
+      --secundary-color: #ffffff;
+      --terciary-color: #2e2e2e;
+      --quarter-color: #2ecc71;
+      --quintenary-color: #535353;
 
+  }
+  .dark-theme {
+    --primary-color: #ffffff;
+    --secundary-color: #000000;
+    --terciary-color: #2b4058;
+    --quarter-color: #ffffff;
+    --quintenary-color: #d9d9d9;
+  }
+    }
   .cabecalho {
     display: grid;
     grid-template-columns: 1fr 1fr;
