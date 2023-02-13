@@ -98,6 +98,14 @@ body {
   padding: 15px;
 }
 
+.imagemEtexto {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 30px;
+}
+
 .cartao {
   background-color: var(--terciary-color);
   border-radius: 15px;
@@ -142,6 +150,49 @@ body {
   padding: 10px auto;
   row-gap: 20px;
   text-align: center;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.carrossel {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+
+.slide {
+  display: none;
+}
+
+div.slide {
+  display: none;
+}
+
+ul.slides {
+  display: none;
+}
+
+.slide img{
+  display: none;
+}
+
+.slide-container{
+  display: none;
+}
+
+label.prev{
+  display: none;
+}
+
+.tituloCarrossel{
+  display: none;
+}
+
+li.nav-dots {
+  display: none;
 }
 
 .secao--membros__coordenadores {
@@ -514,7 +565,6 @@ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png")
     text-align: center;
     line-height: 380px;
     font-family: "Varela Round", sans-serif;
-    background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
 }
 
@@ -559,7 +609,6 @@ input:checked + .slide-container .nav label { display: block; }
 .nav-dots .nav-dot:hover {
   cursor: pointer;
   background-color: #23e546;
-  border-radius: 12px;
 }
 
 input#img-1:checked ~ .nav-dots label#img-dot-1,
@@ -568,7 +617,7 @@ input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
-  background: rgba(0, 0, 0, 0.8);
+  background: #23e546;
 }
 
 .tituloCarrossel{
