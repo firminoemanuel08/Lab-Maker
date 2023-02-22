@@ -1,20 +1,16 @@
-@import url("../dark-theme.css");
-
-.ancora__maker {
-  color: #23e546;
+.botaoComLinkParaOutrasPaginasDoMaker {
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+  padding-bottom: 10px;
 }
 
-.footer__fim {
-  display: flex;
-  justify-content: center;
-  background: var(--terciary-color);
-  height: 80px;
-  background-color: var(--terciary-color);
-  align-items: center;
-}
-
-#escrito__footer {
-  color: White;
+.botao__insta:hover,
+.botao__mundo:hover,
+.botao__email:hover,
+.botao__mapa:hover {
+  transform: scale(1.075);
+  transition: 0.7s;
 }
 
 /******************************************************************************

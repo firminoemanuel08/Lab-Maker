@@ -1,20 +1,17 @@
-@import url("../dark-theme.css");
-
-.ancora__maker {
-  color: #23e546;
-}
-
-.footer__fim {
-  display: flex;
-  justify-content: center;
-  background: var(--terciary-color);
-  height: 80px;
-  background-color: var(--terciary-color);
+.botao__email {
+  border: none;
+  border-radius: 200px;
+  width: 30px;
+  height: 30px;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: grid;
+  background: rgb(133, 133, 133);
 }
-
-#escrito__footer {
-  color: White;
+.icone_email {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 
 /******************************************************************************

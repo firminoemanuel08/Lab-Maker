@@ -1,20 +1,22 @@
-@import url("../dark-theme.css");
-
-.ancora__maker {
-  color: #23e546;
-}
-
-.footer__fim {
-  display: flex;
-  justify-content: center;
-  background: var(--terciary-color);
-  height: 80px;
-  background-color: var(--terciary-color);
+.botao__insta {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border: none;
+  border-radius: 200px;
+  width: 30px;
+  height: 30px;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: grid;
 }
-
-#escrito__footer {
-  color: White;
+.icone_insta {
+  color: #fff;
+  font-size: 20px;
 }
 
 /******************************************************************************

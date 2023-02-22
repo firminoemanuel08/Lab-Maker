@@ -1,0 +1,39 @@
+/* Mobile */
+#formulario_titulo {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  color: rgb(179, 135, 250);
+  font-size: 30px;
+}
+
+.formulario {
+  text-align: left;
+  display: grid;
+  row-gap: 5px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  #formulario_titulo {
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    color: rgb(179, 135, 250);
+    font-size: 30px;
+  }
+
+  .formulario {
+    text-align: left;
+    display: grid;
+    row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0;
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

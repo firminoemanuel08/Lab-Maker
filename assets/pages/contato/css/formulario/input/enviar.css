@@ -1,0 +1,46 @@
+/* Mobile */
+.enviar {
+  width: 60%;
+  padding: 12px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.02);
+  transition: 0.75s;
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .enviar {
+    width: 60%;
+    padding: 12px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+  }
+
+  .enviar:hover {
+    background: darkorange;
+    transform: scale(1.02);
+    transition: 0.75s;
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

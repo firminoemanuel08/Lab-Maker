@@ -5,3 +5,9 @@ const listaRespostas = {
     "email": e.target.elements["email"].value,
     "mensagem": e.target.elements["mensagem"].value
 }
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

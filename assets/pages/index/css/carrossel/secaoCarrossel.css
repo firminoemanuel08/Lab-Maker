@@ -1,22 +1,3 @@
-@import url("../dark-theme.css");
-
-.ancora__maker {
-  color: #23e546;
-}
-
-.footer__fim {
-  display: flex;
-  justify-content: center;
-  background: var(--terciary-color);
-  height: 80px;
-  background-color: var(--terciary-color);
-  align-items: center;
-}
-
-#escrito__footer {
-  color: White;
-}
-
 /******************************************************************************
 **                                                                           **
 **           Developed by Emanuel Firmino & Gabriel Cruz                     **

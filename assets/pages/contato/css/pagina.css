@@ -1,0 +1,61 @@
+@import url("../../../css/dark-theme.css");
+
+@font-face {
+  font-family: "icones";
+  src: url(../../../font/icones.ttf);
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Open Sans", "icones", sans-serif;
+  color: var(--secundary-color);
+}
+
+.principal {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: grid;
+    overflow-x: hidden;
+  }
+
+  .principal {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

@@ -1,0 +1,41 @@
+/* Mobile */
+.botao__mapa {
+  border: none;
+  border-radius: 200px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: grid;
+  background: rgb(87, 87, 87);
+}
+.icone_local {
+  color: rgb(255, 91, 91);
+  font-size: 20px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .botao__mapa {
+    border: none;
+    border-radius: 200px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: grid;
+    background: rgb(87, 87, 87);
+  }
+  .icone_local {
+    color: rgb(255, 91, 91);
+    font-size: 20px;
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

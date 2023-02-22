@@ -38,4 +38,10 @@ icon.onclick = function () {
         icon.src = '../../img/Logos/sun.png';
     }
 }
-    //FIM - Troca de incones ao mudar o tema
+//FIM - Troca de incones ao mudar o tema
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

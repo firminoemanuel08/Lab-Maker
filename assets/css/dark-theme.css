@@ -4,6 +4,7 @@
   --terciary-color: #2e2e2e;
   --quarter-color: #2ecc71;
   --quintenary-color: #535353;
+  --senary-color: #2ecc71;
 }
 .dark-theme {
   --primary-color: #ffffff;
@@ -11,4 +12,11 @@
   --terciary-color: #2b4058;
   --quarter-color: #ffffff;
   --quintenary-color: #d9d9d9;
+  --senary-color: #2b4058;
 }
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

@@ -1,20 +1,12 @@
-@import url("../dark-theme.css");
-
-.ancora__maker {
-  color: #23e546;
+/* Mobile */
+#mensagem {
+  resize: none;
 }
-
-.footer__fim {
-  display: flex;
-  justify-content: center;
-  background: var(--terciary-color);
-  height: 80px;
-  background-color: var(--terciary-color);
-  align-items: center;
-}
-
-#escrito__footer {
-  color: White;
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  #mensagem {
+    resize: none;
+  }
 }
 
 /******************************************************************************
