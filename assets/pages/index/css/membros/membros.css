@@ -1,0 +1,127 @@
+/* Mobile */
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.titulo-secao {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 50px;
+  text-align: center;
+}
+
+.secao--membros__coordenadores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 2px;
+}
+
+.monitores {
+  margin-top: 60px;
+}
+
+.secao--membros__monitores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 0;
+  justify-items: center;
+}
+
+.secao--membros {
+  display: grid;
+  justify-items: center;
+}
+
+.cartao__membro {
+  background-color: var(--terciary-color);
+  border-radius: 15px;
+  color: #ffffff;
+  height: auto;
+  margin: 10px;
+  overflow: hidden;
+  width: 95%;
+}
+
+.cartao--membro__imagem {
+  width: 100%;
+}
+
+.cartao--membro__conteudo {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  row-gap: 5px;
+}
+
+.cartao--membro__titulo {
+  font-size: 0.9rem;
+  font-weight: 700;
+  grid-column: span 2;
+  text-align: center;
+}
+
+.cartao--membro__destaque {
+  font-size: 0.7rem;
+  grid-column: span 2;
+  text-align: center;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .titulo-secao {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .secao--membros__coordenadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 2px;
+  }
+
+  .monitores {
+    margin-top: 60px;
+  }
+
+  .secao--membros__monitores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 30px 0;
+  }
+
+  .cartao__membro {
+    background-color: var(--terciary-color);
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 10px;
+    overflow: hidden;
+    width: 80%;
+  }
+
+  .cartao--membro__imagem {
+    width: 100%;
+  }
+
+  .cartao--membro__conteudo {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    row-gap: 5px;
+  }
+
+  .cartao--membro__titulo {
+    font-size: 0.9rem;
+    font-weight: 700;
+    grid-column: span 2;
+    text-align: center;
+  }
+
+  .cartao--membro__destaque {
+    font-size: 0.7rem;
+    grid-column: span 2;
+    text-align: center;
+  }
+}

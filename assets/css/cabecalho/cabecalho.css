@@ -1,0 +1,77 @@
+@import url("../dark-theme.css");
+
+/* Mobile */
+.cabecalho__projetos,
+.cabecalho__contato {
+  display: none;
+}
+
+.cabecalho {
+  align-items: center;
+  background-color: var(--terciary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.cabecalho__menu i::before {
+  color: white;
+  content: "\e904";
+  font-size: 24px;
+}
+
+.cabecalho__icon-mudaTema {
+  height: 30px;
+  width: 30px;
+}
+
+.cabecalho__logo {
+  width: 40px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: auto;
+    align-items: center;
+  }
+
+  .cabecalho__icon-mudaTema {
+    height: 30px;
+    width: 30px;
+  }
+
+  .cabecalho__menu {
+    display: none;
+  }
+
+  .cabecalho__botoes-desktop {
+    display: inline-flex;
+    grid-auto-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: end;
+    column-gap: 30px;
+  }
+
+  .cabecalho__projetos,
+  .cabecalho__contato {
+    display: inline-block;
+    grid-template-columns: 1fr;
+    color: white;
+  }
+
+  .cabecalho__projetos:hover,
+  .cabecalho__contato:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+    color: var(--quarter-color);
+  }
+
+  #icon:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.5s;
+  }
+}

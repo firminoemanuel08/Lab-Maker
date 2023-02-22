@@ -1,0 +1,57 @@
+@import url("../../../css/dark-theme.css");
+
+@font-face {
+  font-family: "icones";
+  src: url(../../../font/icones.ttf);
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Open Sans", "icones", sans-serif;
+  color: var(--secundary-color);
+}
+
+.principal {
+  display: grid;
+  gap: 8px;
+  padding: 5px 16px;
+}
+
+.titulo-pagina {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: grid;
+  }
+
+  .titulo-pagina {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #094cfa;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+  html,
+  body {
+    background-color: var(--primary-color);
+    font-family: "Open Sans", "icones", sans-serif;
+    color: var(--secundary-color);
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

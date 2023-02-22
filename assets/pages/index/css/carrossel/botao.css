@@ -1,0 +1,6 @@
+@import url("../../../css/dark-theme.css");
+
+#botao-projetos {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}

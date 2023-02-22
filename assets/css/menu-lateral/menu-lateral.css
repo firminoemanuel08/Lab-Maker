@@ -1,0 +1,51 @@
+@import url("../dark-theme.css");
+
+/* Mobile */
+.menu-lateral {
+  background-color: var(--quintenary-color);
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 100vw;
+
+  left: -100vw;
+  position: absolute;
+  transition: 0.25s;
+}
+
+.menu-lateral--ativo {
+  left: 0vh;
+  transition: 0.25s;
+}
+
+.menu-lateral__link {
+  height: 64px;
+  color: var(--secundary-color);
+  padding: 15px 64px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-lateral__link::before {
+  content: "\e900";
+  font-size: 24px;
+  height: 24px;
+  left: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.menu-lateral__link--ativo {
+  color: var(--secundary-color);
+  padding-left: 56px;
+}
+
+.menu-lateral__link--inicio::before {
+  content: "\e902";
+}
+.menu-lateral__link--projetos::before {
+  content: "\e90f";
+}
+.menu-lateral__link--contato::before {
+  content: "\e909";
+}

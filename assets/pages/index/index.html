@@ -9,32 +9,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-    <link rel="stylesheet" href="Css/reset.css">
-    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="css/pagina.css">
+    <link rel="stylesheet" href="../../css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./css/carrossel/carrossel.css">
+    <link rel="stylesheet" href="./css/carrossel/botao.css">
+    <link rel="stylesheet" href="../../css/footer/footer.css">
+    <link rel="stylesheet" href="./css/membros/membros.css">
+    <link rel="stylesheet" href="../../css/menu-lateral/menu-lateral.css">
+    <link rel="stylesheet" href="./css/sobre/cartao.css">
+    <link rel="stylesheet" href="./css/sobre/texto-secao-sobre.css">
 </head>
 
 <body>
     <header class="cabecalho">
         <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
-        <img src="img/Logos/logoSite.png" alt="Logo do Site" class="cabecalho__logo">
+        <img src="../../img/Logos/logoSite.png" alt="Logo do Site" class="cabecalho__logo">
         <div class="cabecalho__botoes-desktop">
-            <a href="projetos.html" class="cabecalho__projetos">Projetos</a>
-            <a href="contato.html" class="cabecalho__contato">Contato</a>
-            <img id="icon" class="cabecalho__tema" aria-label="Tema" src="img/Logos/moon-icon-32.png" alt="Logo Lua">
+            <a href="../projetos/projetos.html" class="cabecalho__projetos">Projetos</a>
+            <a href="../contato/contato.html" class="cabecalho__contato">Contato</a>
+            <img id="icon" class="cabecalho__icon-mudaTema" aria-label="icon-mudaTema" src="../../img/Logos/sun.png"
+                alt="Logo Lua">
         </div>
     </header>
 
     <nav class="menu-lateral">
-        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
-        <a href="projetos.html" class="menu-lateral__link menu-lateral__link--projetos ">Projetos</a>
-        <a href="contato.html" class="menu-lateral__link menu-lateral__link--contato ">Contato</a>
+        <a href="../index/index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="../projetos/projetos.html" class="menu-lateral__link menu-lateral__link--projetos ">Projetos</a>
+        <a href="../contato/contato.html" class="menu-lateral__link menu-lateral__link--contato ">Contato</a>
     </nav>
 
     <main class="principal">
         <h2 class="titulo-pagina">Início</h2>
-        <section class="imagemEtexto__desktop">
+        <section class="secao-sobre">
             <article class="cartao cartao--destaque">
-                <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao__imagem">
+                <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao__imagem">
                 <div class="cartao__conteudo">
                     <h3 class="cartao__titulo">LABMAKER - Título</h3>
                     <p class="cartao__destaque">teste</p>
@@ -42,8 +51,8 @@
                 </div>
             </article>
 
-            <section class="sobre">
-                <h3 class="titulo-secao">Sobre</h3>
+            <section class="texto-secao-sobre">
+                <h3 class="titulo-secao-sobre">Sobre</h3>
                 <div class="textos__sobre">
                     <p1>
                         O Laboratório Maker do IFSULDEMINAS Campus Avançado Carmo de Minas teve suas operações iniciadas
@@ -68,79 +77,82 @@
             <ul class="slides">
                 <input type="radio" name="radio-btn" id="img-1" checked />
                 <li class="slide-container">
-                <div class="slide">
-                  <img src="img/projetos/prjt-1.png" />
+                    <div class="slide">
+                        <img src="../../img/Projetos/prjt-1.png" />
                     </div>
-                <div class="nav">
-                  <label for="img-6" class="prev">&#x2039;</label>
-                  <label for="img-2" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-6" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <input type="radio" name="radio-btn" id="img-2" />
                 <li class="slide-container">
                     <div class="slide">
-                      <img src="img/projetos/prjt-2.png" />
+                        <img src="../../img/Projetos/prjt-2.png" />
                     </div>
-                <div class="nav">
-                  <label for="img-1" class="prev">&#x2039;</label>
-                  <label for="img-3" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <input type="radio" name="radio-btn" id="img-3" />
                 <li class="slide-container">
                     <div class="slide">
-                      <img src="img/projetos/prjt-3.png" />
+                        <img src="../../img/Projetos/prjt-3.png" />
                     </div>
-                <div class="nav">
-                  <label for="img-2" class="prev">&#x2039;</label>
-                  <label for="img-4" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <input type="radio" name="radio-btn" id="img-4" />
                 <li class="slide-container">
                     <div class="slide">
-                      <img src="img/projetos/slide1.jpg" />
+                        <img src="../../img/Projetos/slide1.jpg" />
                     </div>
-                <div class="nav">
-                  <label for="img-3" class="prev">&#x2039;</label>
-                  <label for="img-5" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-5" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <input type="radio" name="radio-btn" id="img-5" />
                 <li class="slide-container">
                     <div class="slide">
-                      <img src="img/projetos/slide2.jpg" />
+                        <img src="../../img/Projetos/slide2.jpg" />
                     </div>
-                <div class="nav">
-                  <label for="img-4" class="prev">&#x2039;</label>
-                  <label for="img-6" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-4" class="prev">&#x2039;</label>
+                        <label for="img-6" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <input type="radio" name="radio-btn" id="img-6" />
                 <li class="slide-container">
                     <div class="slide">
-                      <img src="img/projetos/slide3.jpg" />
+                        <img src="../../img/Projetos/slide3.jpg" />
                     </div>
-                <div class="nav">
-                  <label for="img-5" class="prev">&#x2039;</label>
-                  <label for="img-1" class="next">&#x203a;</label>
-                </div>
+                    <div class="nav">
+                        <label for="img-5" class="prev">&#x2039;</label>
+                        <label for="img-1" class="next">&#x203a;</label>
+                    </div>
                 </li>
-            
+
                 <li class="nav-dots">
-                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-                  <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-                  <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                    <label for="img-6" class="nav-dot" id="img-dot-6"></label>
                 </li>
             </ul>
+            <button id="botao-projetos">
+                <a href="../projetos/projetos.html">Ver mais projetos.</a>
+            </button>
         </section>
 
         <h4 class="titulo-secao">Membros</h4>
@@ -148,7 +160,7 @@
         <section class="secao--membros__coordenadores">
 
             <article class="cartao__membro">
-                <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                 <div class="cartao--membro__conteudo">
                     <h3 class="cartao--membro__titulo">Coordenador</h3>
                     <p class="cartao--membro__destaque">Luciano Haverroth</p>
@@ -157,7 +169,7 @@
             </article>
 
             <article class="cartao__membro">
-                <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                 <div class="cartao--membro__conteudo">
                     <h3 class="cartao--membro__titulo">Coordenador</h3>
                     <p class="cartao--membro__destaque">João Paulo</p>
@@ -166,7 +178,7 @@
             </article>
 
             <article class="cartao__membro">
-                <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                 <div class="cartao--membro__conteudo">
                     <h3 class="cartao--membro__titulo">Coordenador</h3>
                     <p class="cartao--membro__destaque">Luiz Gustavo</p>
@@ -175,7 +187,7 @@
             </article>
 
             <article class="cartao__membro">
-                <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                 <div class="cartao--membro__conteudo">
                     <h3 class="cartao--membro__titulo">Coordenador</h3>
                     <p class="cartao--membro__destaque">Moisés</s></p>
@@ -186,7 +198,7 @@
         </section>
 
         <section>
-            
+
         </section>
 
         <section class="monitores">
@@ -194,7 +206,7 @@
             <section class="secao--membros__monitores">
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Gabriel Campos</p>
@@ -203,7 +215,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Jefferson</p>
@@ -212,7 +224,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Ana Beatriz</p>
@@ -221,7 +233,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Luan Santos</s></p>
@@ -233,7 +245,7 @@
             <section class="secao--membros__monitores">
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Danilo Gaioso</p>
@@ -242,7 +254,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Matheus Motta</p>
@@ -251,7 +263,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Guilherme</p>
@@ -260,7 +272,7 @@
                 </article>
 
                 <article class="cartao__membro">
-                    <img src="img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
+                    <img src="../../img/Maker/Filho-do-Jeff.JPG" alt="Banner do cartao" class="cartao--membro__imagem">
                     <div class="cartao--membro__conteudo">
                         <h3 class="cartao--membro__titulo">Monitor</h3>
                         <p class="cartao--membro__destaque">Emanuel</s></p>
@@ -278,7 +290,7 @@
                 href="https://www.instagram.com/labmaker_ifsuldeminascdm/" title="LabMaker">LabMaker</a>.</p>
     </footer>
 
-    <script src="Js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>
