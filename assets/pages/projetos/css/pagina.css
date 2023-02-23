@@ -1,0 +1,42 @@
+@import url("../../../css/dark-theme.css");
+@font-face {
+  font-family: "icones";
+  src: url(../../../font/icones.ttf);
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Open Sans", "icones", sans-serif;
+  color: var(--secundary-color);
+}
+
+.principal {
+  display: grid;
+  gap: 8px;
+  padding: 5px 16px;
+}
+
+.titulo-pagina {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: grid;
+  }
+
+  .titulo-pagina {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+  }
+}
+
+/******************************************************************************
+**                                                                           **
+**           Developed by Emanuel Firmino & Gabriel Cruz                     **
+**                                                                           **
+*******************************************************************************/

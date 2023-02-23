@@ -1,0 +1,136 @@
+@import url("../../../css/dark-theme.css");
+/* Mobile */
+.cartao {
+  background-color: var(--terciary-color);
+  border-radius: 15px;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cartao-projeto__destaque {
+  margin-bottom: 16px;
+  grid-column: span 2;
+}
+
+.cartao--projeto__conteudo {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  row-gap: 5px;
+}
+
+.secao--projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0;
+  justify-items: center;
+  row-gap: 3vh;
+  column-gap: 5vw;
+  width: 100%;
+}
+
+.titulo-secao {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+  text-align: center;
+}
+
+.cartao__projeto {
+  background-color: var(--terciary-color);
+  border-radius: 15px;
+  color: #ffffff;
+  height: auto;
+  margin: 10px;
+  overflow: hidden;
+  width: 95%;
+}
+
+.cartao--projeto__imagem {
+  width: 100%;
+}
+
+.cartao--projeto__conteudo {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  row-gap: 5px;
+}
+
+.cartao--projeto__titulo {
+  font-size: 0.9rem;
+  font-weight: 700;
+  grid-column: span 2;
+  text-align: center;
+}
+
+.cartao--projeto__destaque {
+  font-size: 0.7rem;
+  grid-column: span 2;
+  text-align: center;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .cartao__projeto {
+    background-color: var(--terciary-color);
+    border-radius: 15px;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+    width: 65%;
+  }
+
+  .cartao--projeto__destaque {
+    margin-bottom: 16px;
+  }
+
+  .cartao--projeto__imagem {
+    width: 100%;
+  }
+
+  .cartao--projeto__conteudo {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    row-gap: 5px;
+  }
+
+  .cartao--projeto__destaque {
+    grid-column: span 2;
+  }
+
+  .secao--projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 5vh;
+  }
+
+  .cartao__projeto {
+    background-color: var(--terciary-color);
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .cartao--projeto__imagem {
+    width: 100%;
+  }
+
+  .cartao--projeto__titulo {
+    font-size: 0.9rem;
+    font-weight: 700;
+    grid-column: span 2;
+    text-align: center;
+  }
+
+  .cartao--projeto__destaque {
+    font-size: 0.7rem;
+    grid-column: span 2;
+    text-align: center;
+  }
+}
