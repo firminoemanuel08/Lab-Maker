@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "darkmode-js": "^1.5.7",
+    "ts-check": "^0.2.4"
+  }
+}
