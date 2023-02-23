@@ -10,6 +10,8 @@
   margin-top: 50px;
   font-weight: bold;
   font-family: "montserrat", sans-seriff;
+  width: 20%;
+  align-self: center;
 }
 
 #botao-projetos:hover {

@@ -42,6 +42,10 @@
 }
 /* Desktop */
 @media screen and (min-width: 1024px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
   .slides {
     padding: 0;
     width: 609px;
